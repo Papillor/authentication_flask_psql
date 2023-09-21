@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root {
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+}
+
+/* PAGE LOGIN */
+
+.login_body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 23, 32);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.login_comp {
+    background-color: rgb(197, 208, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    width: 35vw;
+    max-width: 500px;
+    height: 40vh;
+    max-height: 400px;
+
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+
+    border-radius: 5%;
+    
+}
+
+.login_comp header h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    max-width: 300px;
+    gap: 25px;
+}
+
+.login_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_label{
+    margin-bottom: 2%;
+}
+
+.login_btn{
+    background-color: rgb(135, 171, 184);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 50%;
+    border-radius: 5px;
+    border:none;
+    padding: 4%;
+
+}
+
+.login_btn:hover{
+    background-color: rgb(85, 108, 116);
+    cursor: pointer;
+}
