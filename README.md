@@ -18,8 +18,12 @@ source myvenv/bin/activate
 ```psql
 # create the db
 
-CREATE DATABASE authflask
+CREATE DATABASE authflask;
 GRANT ALL PRIVILEGES ON DATABASE authflask TO youruser;
+
+select the db
+
+\c authflask
 
 # create table
 
