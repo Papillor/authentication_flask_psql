@@ -23,7 +23,7 @@ GRANT ALL PRIVILEGES ON DATABASE authflask TO youruser;
 
 select the db
 
-\c authflask
+\c authflask;
 
 # create table
 
