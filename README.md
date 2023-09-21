@@ -5,11 +5,11 @@
 ### Venv
 
 ```bash
-# create a ven
+# create a venv
 
 python3 -m venv "nameofyourvenv"
 
-# activate a ven
+# activate a venv
 
 source myvenv/bin/activate
 ```
@@ -42,6 +42,7 @@ psql -U youruser yourdb
 ```
 # in venv activated
 pip install Flask psycopg2-binary
+
 ```
 
 # Launch project
