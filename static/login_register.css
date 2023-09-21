@@ -5,6 +5,13 @@
     font-family: 'Dosis', Arial, Helvetica, sans-serif;
 }
 
+.msg {
+    background-color: rgb(103, 128, 121);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 /* PAGE LOGIN */
 
 .login_body {
@@ -96,11 +103,6 @@
 
 .register_comp {
     background-color: rgb(197, 208, 212);
-    /* filter:blur(4px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(4px);
-    -webkit-filter:blur(4px); */
     display: flex;
     flex-direction: column;
     align-items: center;
