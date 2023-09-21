@@ -11,20 +11,19 @@
   <div class="login_comp">
     <header>
       <h1>Log in</h1>
-      <img class="logo" src="/static/pexels-joseph-m-lacy-2289845.jpg" alt="butterfly">
     </header>
-    <form class="login_form {{ url_for('login') }}" method="post">
+    <form class="login_form" action="{{ url_for('login') }}" method="post">
       <div class="login_input">
         <label class="login_label" for="username">Username</label>
-        <input class="login_input_obj" id="username" name="username" type="text" placeholder="Enter Your Username" />
+        <input class="login_input_obj" id="username" name="username" type="text" placeholder="ex: little_bookworm" />
       </div>
       <div class="login_input">
         <label class="login_label" for="password">Password</label>
-        <input class="login_input_obj" id="password" name="password" type="password" placeholder="Enter Your Password" />
+        <input class="login_input_obj" id="password" name="password" type="password" placeholder="ex: xxxxxxxx" />
       </div>
       <input type="submit" class="login_btn" value="Sign In">
     </form>
-    <footer>Don't have an account? <a class="cta_btn" href="{{url_for('register')}}"> Sign Up here</a></footer>
+    <footer>Don't have an account? <a class="cta_btn" href="{{url_for('register')}}"> Sign up here</a></footer>
   </div>
 </body>
 
