@@ -43,6 +43,7 @@ def register():
         with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cursor:
             cursor.execute('SELECT * FROM accounts WHERE username = %s', (username,))
             account = cursor.fetchone()
+            # This part must be corrected ! Some works, some don't
             if account:
                 msg = 'Account already exists!'
             elif not re.match(r'[^@]+@[^@]+\.[^@]+', email):
