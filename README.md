@@ -1,4 +1,4 @@
-# Authentication on Flask using Postgresql - Beginner
+# Basic authentication
 
 ## Setting up
 
